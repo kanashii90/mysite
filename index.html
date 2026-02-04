@@ -1,10 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./accets/style.css">
+    <title>Podcast</title>
 </head>
 <body>
-$END$
+<header class="header">
+    <div>
+        <div class="header_content">
+            <a class="header_logo" href="index.html">
+                <img src="./accets/img/logo.svg" alt="logo">
+            </a>
+            <ul class="header_menu">
+                <li class="header_menu_item">
+                    <a href="index.html" class="header_menu_link">Home</a>
+                </li>
+                <li class="header_menu_item">
+                    <a href="Episodes.html" class="header_menu_link">Episodes</a>
+                </li>
+                <li class="header_menu_item">
+                    <a href="About.html" class="header_menu_link">About</a>
+                </li>
+                <li class="header_menu_item">
+                    <a href="Contact.html" class="header_menu_link_upper">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</header>
+<section class="main_section">
+    <div>
+        <div class="main_wrapper">
+            <div class="main_img">
+                <img src="./accets/img/podcast.png" alt="podcast_image">
+            </div>
+            <div class="main_content">
+                <h1 class="main_title">
+                    Take your podcast to the
+                    <span class="tittle-row">
+                    <span class="title-light">next</span>
+                    <span class="title-bold">level</span>
+                    </span>
+                </h1>
+                <div class="platforms">
+                    <span>Listen on</span>
+                    <ul class="platforms_list">
+                        <li>
+                            <a href="https://spotify.com">
+                                <img src="./accets/img/spotify.svg" alt="Spotify">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://pocketcasts.com/">
+                                <img src="./accets/img/pocket_casts.svg" alt="Pocket Casts">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://soundcloud.com/">
+                                <img src="./accets/img/soundcloud.svg" alt="SoundCloud">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://podcasters.apple.com/">
+                                <img src="accets/img/apple_podcasts.svg" alt="Apple Podcasts">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://overcast.fm/">
+                                <img src="./accets/img/overcast.svg" alt="Overcast">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="episodes_section">
+    <div class="container">
+        <div class="episodes_header">
+            <h2 class="episodes_title">
+                Latest episodes
+            </h2>
+            <button class="btn">
+                View all episodes
+            </button>
+        </div>
+        <div class="episodes_list">
+            <article class="card">
+                <div class="card_img">
+                    <img src="./accets/img/article_1.png" alt="cover_1">
+                </div>
+                <div class="card_content">
+                    <span class="card_label">Gear</span>
+                    <span class="card_episode">Episode 3</span>
+                    <h3 class="card_title">
+                        Should you get outboard audio gear?
+                    </h3>
+                    <p class="card_text">
+                        Is hardware really worth it when it comes to podcasting?
+                        The answer is...it depends.
+                        Here’s our reasons on why you might want to consider
+                        picking something up.
+                    </p>
+                    <button class="btn">
+                        View Episode Details
+                    </button>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card_img">
+                    <img src="./accets/img/article_2.png" alt="cover_2">
+                </div>
+                <div class="card_content">
+                <span class="card_label">Tips & Tricks</span>
+                <span class="card_episode">Episode 3</span>
+                <h3 class="card_title">
+                    Mic tricks to take you to the next level
+                </h3>
+                <p class="card_text">
+                    Stop rolling with those default settings on your mic.
+                    These small tweaks will take you from sounding good to great.
+                </p>
+                <button class="btn">
+                    View Episode Details
+                </button>
+                </div>
+            </article>
+            <article class="card">
+                <div class="card_img">
+                    <img src="./accets/img/article_3.png" alt="cover_3">
+                </div>
+                <div class="card_content">
+                <span class="card_label">Gear</span>
+                <span class="card_episode">Episode 1</span>
+                <h3 class="card_title">
+                    The best microphone under $200
+                </h3>
+                <p class="card_text">
+                    With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.
+                </p>
+                <button class="btn">
+                    View Episode Details
+                </button>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
 </body>
 </html>

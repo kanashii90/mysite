@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    min-width: 375px;
+    background-color: #191919;
+    height: 100%;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+h1, .text, .text_bold{
+    color: #fff;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 1.25714;
+    letter-spacing: 0.05em;
+}
+
+.header {
+    padding: 14px 0 0 0;
+}
+
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 43px 70px;
+}
+
+.header_menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header_menu_link {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.header_menu_link_upper {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.main-section {
+
+}
+
+.main_wrapper {
+    display: flex;
+    gap: 60px;
+    padding: 40px 70px;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 130px;
+}
+
+.main_img {
+    flex: 0 0 650px;
+    height: 873px;
+}
+
+.main_img img {
+    border-radius: 12px;
+}
+
+.main_title {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 1.25714;
+    letter-spacing: 0.05em;
+    color: #fff;
+    margin-bottom: 90px;
+}
+
+.title-row {
+    display: flex;
+    gap: 25px;
+}
+
+.title-light {
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 1.17333;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.title-bold {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.platforms {
+    display: flex;
+    flex-direction: column;
+    padding: 0 22px;
+
+}
+
+.platforms span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.platforms_list {
+    display: flex;
+    gap: 17px;
+}
+
+
+.container {
+    padding: 100px 70px 160px;
+}
+
+.episodes_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    padding: 24px 0;
+}
+
+.episodes_title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.2375;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.episodes_list {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.58824;
+    color: #fff;
+    border-radius: 6px;
+    padding: 12px 15px 12px 20px;
+    background-color: #118da8;
+}
+
+.card {
+    border-radius: 32px;
+    background-color: #000;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+}
+
+.card_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_label {
+    border-radius: 6px;
+    background-color: #191919;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 48px;
+    align-self: flex-start;
+}
+
+.card_episode {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.58824;
+    color: #118da8;
+    margin-bottom: 17px;
+}
+
+.card_title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.card_text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.card_content .btn {
+    align-self: flex-start;
+    margin-top: auto;
+
+}
+
+@media (max-width: 768px) {
+    .main_wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title-row {
+        justify-content: center;
+    }
+}
