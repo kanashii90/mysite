@@ -41,7 +41,7 @@ button:hover {
     transform: translateY(-3px);
 }
 
-h1, .text, .text_bold{
+h1, .text, .text_bold {
     color: #fff;
 }
 
@@ -254,6 +254,93 @@ h1 {
     align-self: flex-start;
     margin-top: auto;
 
+}
+
+.frame {
+    display: flex;
+    gap: 60px;
+    width: 1300px;
+    height: 743px;
+}
+
+.about_frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about_link {
+    width: 112px;
+    height: 112px;
+    margin-bottom: 20px;
+}
+
+.span_about_Jacob {
+    font-weight: 400;
+    font-size: 18px;
+
+    /* line-height: 27px; */
+    line-height: 1.5;
+    color: #118da8;
+}
+
+.about_frame h3 {
+    font-weight: 400;
+    font-size: 65px;
+    /* line-height: 79px; */
+    line-height: 1.21846;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.about_frame p {
+    font-weight: 400;
+    font-size: 22px;
+    /* line-height: 33px; */
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 33px;
+}
+
+.about_img {
+    border-radius: 12px;
+    width: 650px;
+    height: 743px;
+}
+.sub_frame {
+    display: flex;
+    gap: 76px;
+    flex-direction: row;
+    border-radius: 32px;
+    width: 1300px;
+    height: 387px;
+    background-color: #000;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.span_subscription {
+    font-weight: 400;
+    font-size: 18px;
+
+    /* line-height: 27px; */
+    line-height: 1.5;
+    color: #118da8;
+}
+
+.subscribe h3 {
+    font-weight: 400;
+    font-size: 72px;
+    /* line-height: 79px; */
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
