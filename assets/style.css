@@ -10,9 +10,24 @@ html, body {
     min-width: 375px;
     background-color: #191919;
     height: 100%;
-    max-width: 1440px;
+
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.container {
+    margin: 0 auto;
+    padding: 0 70px;
+    max-width: 1440px;
+}
+
+.section {
+    padding:100px 0;
+}
+
+.footer {
+    padding:100px 0;
 }
 
 a {
@@ -26,6 +41,8 @@ a:hover {
 
 ul {
     list-style: none;
+    padding:0;
+    margin:0;
 }
 
 button {
@@ -49,10 +66,6 @@ h1 {
     font-size: 70px;
     line-height: 1.25714;
     letter-spacing: 0.05em;
-}
-
-.header {
-    padding: 14px 0 0 0;
 }
 
 .header_content {
@@ -84,7 +97,8 @@ h1 {
 }
 
 .main-section {
-
+    padding-top:40px;
+    padding-bottom:40px;
 }
 
 .main_wrapper {
@@ -159,11 +173,6 @@ h1 {
     gap: 17px;
 }
 
-
-.container {
-    margin: 0 auto;
-    padding: 100px 70px 160px;
-}
 
 .episodes_header {
     display: flex;
@@ -367,6 +376,90 @@ h1 {
     margin-bottom: 20px;
 }
 
+.reviews_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.review_card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 364px;
+    border-radius: 32px;
+    background-color: #000;
+    padding: 54px 50px;
+    flex-basis: calc((100% - 32px) / 3);
+}
+.review_rating {
+
+}
+
+.review_text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.review_author {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer_wrapper {
+    display: flex;
+    gap: 16px;
+}
+
+.footer_brand {
+    display:flex;
+    flex-direction:column;
+    gap: 20px;
+    flex: 1 1 447px;
+}
+
+.footer_socials {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_logo img{
+    height:46px;
+    width:auto;
+}
+
+.footer_nav {
+    flex-basis:178px;
+    flex-shrink:0;
+}
+
+.footer_nav ul {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.footer_nav a {
+    font-weight:400;
+    font-size:17px;
+    line-height:1.58824;
+    color:#fff;
+}
+
+.footer_platforms {
+    display:flex;
+    align-items:flex-start;
+    flex: 1 1 447px;
+}
+
+.footer_platforms ul {
+    display: flex;
+    gap: 17px;
+}
 
 
 @media (max-width: 768px) {
