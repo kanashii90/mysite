@@ -27,7 +27,7 @@ html, body {
 
 
 .section {
-    padding:100px 0;
+    padding: 100px 0;
 }
 
 .footer {
@@ -95,6 +95,18 @@ h1 {
 .header_menu_link:hover {
     color: blue;
     transition: 0.5s;
+}
+
+.header_btn {
+    width:48px;
+    height:48px;
+    background:none;
+    border:none;
+    padding:0;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    display: none;
 }
 
 .main-section {
@@ -205,6 +217,10 @@ h1 {
     gap: 17px;
 }
 
+.card_section {
+    padding-top: 100px;
+    padding-bottom: 160px;
+}
 
 .episodes_header {
     display: flex;
@@ -293,14 +309,15 @@ h1 {
 .card_content .btn {
     align-self: flex-start;
     margin-top: auto;
+}
 
+.about-section {
+    padding: 100px 0;
 }
 
 .frame {
     display: flex;
     gap: 60px;
-    width: 100%;
-    height: 743px;
 }
 
 .about_frame {
@@ -479,6 +496,10 @@ h1 {
     flex: 1 1 447px;
 }
 
+.footer_menu {
+    display: flex;
+}
+
 .footer_socials {
     display: flex;
     gap: 10px;
@@ -538,7 +559,7 @@ h1 {
      padding: 9px 20px 10px 20px;
  }
     .container {
-        padding: 0 40px;
+        padding: 0 20px;
     }
     .header_menu {
         display: none;
@@ -550,8 +571,18 @@ h1 {
         padding: 0;
     }
 
+    .header_btn{
+        display: flex;
+    }
+
+    .header_menu{
+        display: none;
+    }
+
     .main-section {
-        padding-bottom: 0;
+        padding-bottom: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
     .main_wrapper {
         flex-direction: column;
@@ -572,10 +603,6 @@ h1 {
         display:block;
     }
 
-    .main_img::after {
-        left: -13px;
-    }
-
     .title-row {
         justify-content: left;
     }
@@ -584,12 +611,15 @@ h1 {
         align-items: flex-start;
         flex-direction: column;
         gap: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
+        padding-left: 40px;
     }
 
     .episodes_list {
         align-items: center;
     }
+
+
     .card {
         flex-direction: column;
         gap: 40px;
@@ -610,7 +640,68 @@ h1 {
         object-fit: cover;
         object-position: center;
     }
+
     .card_text {
         margin-bottom: 18px;
+    }
+
+    .about-section {
+        padding: 100px 40px 114px 40px;
+    }
+
+    .frame {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+     .about_img {
+        justify-content: center;
+    }
+
+    .about_frame h3,
+    .about_frame p,
+    .about_frame a {
+        margin-bottom: 0;
+    }
+
+    .about_frame {
+        gap: 20px;
+    }
+
+    .sub_frame {
+        flex-direction: column;
+        gap: 86px;
+        padding: 60px 40px;
+    }
+
+    .sub_form {
+        width: 100%;
+    }
+
+    .sub_frame::before {
+        right: -28px;
+        transform: rotate(-45deg);;
+        left: auto;
+    }
+
+    .review_card {
+        padding: 53px 40px 50px 40px;
+        flex-basis: calc((100% - 16px) / 2);
+    }
+
+    .footer {
+        padding:100px 40px 100px 40px;
+    }
+
+    .footer_wrapper {
+        flex-direction: column;
+    }
+
+    .footer_brand {
+        flex: 1 1 222px;
+    }
+
+    .footer_platforms {
+        flex: 0;
     }
 }
